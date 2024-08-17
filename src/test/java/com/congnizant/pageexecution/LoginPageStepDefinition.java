@@ -47,6 +47,10 @@ public class LoginPageStepDefinition {
 		lp.userName.sendKeys(username);
 		lp.passWord.sendKeys(password);
 		lp.loginBtn.click();
+		
+		System.out.println("New branch Testing");
 	}
+	
+
 
 }
